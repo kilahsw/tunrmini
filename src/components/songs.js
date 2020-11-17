@@ -7,7 +7,7 @@ const Songs = (props) => {
             <>
                 {songs.map((song) => (
                     <div>
-                        <p style={{ fontWeight: 'bold', color: 'white' }}>{song.title} by {song.artist}</p>
+                        <p style={{ fontWeight: 'bold', color: 'white' }}>'{song.title}' - {song.artist}</p>
                         <p style={{color: 'white'}}>{song.time}</p>
                         <button style={{ color: 'white', fontWeight: 'bold', backgroundColor: 'hotpink' }}
                             onClick={() => {

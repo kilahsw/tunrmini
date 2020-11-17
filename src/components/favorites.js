@@ -7,7 +7,7 @@ function Favorites(props) {
             {props.favorites.map((favorite) => {
                 return (
                     <>
-                        <p>{favorite.title}</p>
+                        <p style={{color: 'white'}}>'{favorite.title}'</p>
                     </>
                 )
             })}
